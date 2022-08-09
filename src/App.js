@@ -14,11 +14,9 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <nav>
-            <h2>Sheersho Pramanik</h2>
+            <h2 > <Link to="/">Sheersho Pramanik</Link></h2>
             <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
+       
               <li>
                 <Link to="/pricing">Pricing</Link>
               </li>
